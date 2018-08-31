@@ -1,5 +1,5 @@
 
-
+from __future__ import division
 
 def calc_mean(num_list):
     
@@ -13,4 +13,3 @@ def calc_mean(num_list):
     except ZeroDivisionError:
         msg = "Oh no. No elements in your array."
         raise TypeError(msg)
-   
